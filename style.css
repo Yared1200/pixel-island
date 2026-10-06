@@ -1,0 +1,19 @@
+html {
+    background-color: rgb(31, 81, 255)
+}
+
+@font-face {
+    font-family: 'Helvetica Rounded';
+    src: url('https://www.fonts.googleapis.com/css2?family=Helvetica+Rounded&display=swap') format:('woff2')
+}
+
+playButton {
+    background-color: rgb(0, 128, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Helvetica Rounded', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
