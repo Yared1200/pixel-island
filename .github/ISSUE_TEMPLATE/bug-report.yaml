@@ -1,0 +1,58 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: Bug
+type: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting the bug!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Information
+      description: Please provide your email or other contact information so we can follow up with you.
+      placeholder: "Example: my-email@website.com"
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: What happened? Please provide as much detail as possible, including steps to reproduce the bug.
+      placeholder: A BUG HAPPENED.
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version!
+      description: Which version of this game are you playing?
+      options:
+        - "1.01.0 (Alpha)"
+        - "1.02.0 (Beta, Unreleased)"
+    validations:
+      required: true
+  - type: upload
+    id: screenshot
+    attributes:
+      label: Optional - Screenshot
+      description: If you have a screenshot of the bug, please upload it here. This can help us understand the issue better.
+    validations:
+      required: false
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: I agree to the following...
+      description: By submitting this bug report, I agree to the following:
+      options:
+        - label: I agree that this bug report may be for the game may not be for Prodigy Math (the inspiration for the game).
+          required: true
+        - label: I agree to follow this game's code of conduct.
+          required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output Log
+      description: This is the output log from the bug. Please paste or write it. This will be rendered to code.
+      placeholder: Please paste here.
+      render: shell
