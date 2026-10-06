@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: "Support"
+  - name: "Support/suggestions"
     url: "mailto:asaminewyared@gmail.com"
-    about: "Contact support for assistance."
+    about: "Contact support for assistance and suggestions."
   - name: "You may need this!"
     url: "mailto:senait.bek@gmail.com"
     about: "YOU MAY NEED THIS! EH?"
