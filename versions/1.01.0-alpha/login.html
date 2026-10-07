@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login page Version 1.01.0 Alpha</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <img src="login-title.png">
+        <form action="/login-endpoint" method="post">
+            <div>
+                <label for="username">Type your username here!!</label>
+                <input type="text" id="username" name="username" placeholder="Type your username here!!" required autocomplete="username">
+            </div>
+            <br>
+            <div>
+                <label for="password">Type your password here!!</label>
+                <input type="password" id="password" name="password" placeholder="Type your password here!!" required autocomplete="current-password">
+            </div>
+            <br>
+            <button type="submit">Submit!!</button>
+        </form>
+    </body>
+</html>
