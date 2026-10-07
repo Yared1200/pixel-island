@@ -1,0 +1,21 @@
+html {
+    background-image: url("untitle-pixel-art@4x (2).png");
+}
+
+submitButton {
+    background: #3d85c6;
+    border: 6px solid #073763;
+    border-radius: 11px;
+    padding: 20px 45px;
+    font: normal bold 32px/1 "Caviar", sans-serif;
+    text-align: center
+}
+
+characterButton {
+    background: #6aa84f;
+    border: 6px solid #274e13;
+    border-radius: 11px;
+    padding: 20px 45px;
+    font: normal bold 32px/1 "Caviar", sans-serif;
+    text-align: center
+}
