@@ -9,5 +9,5 @@ Welcome to [the game](https://www.Yared1200.github.io/pixel-island)! I am [Yared
 Thanks to [Senait](mailto:senait.bek@gmail.com), [Daboss7173](https://www.Daboss7173.github.io/oldprodigy/select), and [Google Gemini](https://www.gemini.google).
 ---
 # Versions
-The latest version: `Version 1.00 Alpha`
-The earliest version: `Version 1.00 Alpha`
+The latest version: `Version 1.01.0 Alpha`
+The earliest version: `Version 1.01.0 Alpha`
